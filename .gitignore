@@ -1,5 +1,5 @@
 .idea
 cert
 pkg
-.yml
+config/config.yml
 Waymon_api.log
