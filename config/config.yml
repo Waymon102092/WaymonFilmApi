@@ -1,0 +1,91 @@
+server:
+  port: :8081
+
+# mysql
+mysql:
+  host: 127.0.0.1
+  port: 3306
+  database: waymon
+  username: root
+  password: 123456
+  charset: utf8mb4
+
+# redis
+redis:
+  host: 127.0.0.1
+  port: 6379
+  password:
+
+# rabbitmq
+amqp:
+  name: amqp
+  host: 127.0.0.1
+  port: 5672
+  username: admin
+  password: 123456
+
+# 微信小程序
+mini:
+  appId:
+  appSecret:
+
+# 抖音小程序
+tt:
+  appId:
+  appSecret:
+
+# 微信公众号
+wechat:
+  appId:
+  appSecret:
+
+# 微信支付
+wePay:
+  mchId: 1636818500
+  serialNo: 2B7A8F50A7BA40DE29165539AC0953C27E9B4818
+  aesKey: RwGKuq9q1p5vmPr1bsasWXtPQbV7rbfh
+  privatePath: /cert/apiclient_key.pem
+
+# 支付宝支付
+alipay:
+  appId: "2021004121666305"
+  privateKey:
+
+# 阿里云
+aliyun:
+  imgUrl:
+  bucketName :
+  endpoint : https://oss-cn-hangzhou.aliyuncs.com
+  accessKeyId :
+  accessKeySecret :
+
+
+
+netStart:
+  baseUri: https://apis.netstart.cn/maoyan/
+  banner: bannerData.json #banner
+  cities: cities.json #城市列表
+  city: city/latlng #根据经纬度获取城市
+  # 热映
+  hot: index/movieOnInfoList #热映列表
+  #待上映
+  come: index/comingList #待映列表
+  # 影院
+  filter_cinema: index/filterCinemas #附近影院筛选条件
+  cinema: index/moreCinemas #附近影院列表
+  #搜索
+  search_cinema: search/cinemas #搜索影院
+  search_movies: search/movies #搜索电影
+  #详情
+  cinema_detail: cinema/detail #影院详情
+  movie_detail: movie/detail #影片详情
+  #上映
+  cinema_shows: cinema/shows #影院正在上映
+  #选座
+  cinema_seats: cinema/seat.json #影院在线选座
+
+  movie_intro: movie/intro #购票页面影片介绍
+
+  rate: index/topRatedMovies #最受好评电影列表
+  most_expect: index/mostExpected #近期最受期待列表
+
