@@ -3,3 +3,4 @@ cert
 pkg
 config/config.yml
 Waymon_api.log
+.gitignore

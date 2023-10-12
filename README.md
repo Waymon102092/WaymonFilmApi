@@ -82,6 +82,7 @@ docker run --name cinema_api56 --restart=always -p 8081:8081 -d  registry.cn-han
 
 #### 五、如有疑问可以添加微信咨询
 个人主页：https://github.com/Waymon102092/
+
 微信公众号： Waymon
-微信：
-![](/Users/waymon/Desktop/Waymon/WechatIMG260.jpeg)
+
+微信： ![](/Users/waymon/Desktop/Waymon/weixin.jpeg)
